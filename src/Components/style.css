@@ -1,0 +1,106 @@
+ body{
+    background-color:black;
+    background-image: url("../images/bgimage2.jpg");
+    background-size: 1300px;
+    background-repeat: no-repeat;
+    background-position: center center;
+ }
+ .container{
+     height: 70px;
+    /* margin: 100px 100px 100px 200px; */
+   position:sticky;
+    display: flex;
+    justify-content: center;
+    background-color: rgba(17, 26, 31, 0.486);
+  }
+
+ /* ------------for Header line--------------------- */
+  #header1{
+    color: aliceblue;
+    margin-right: 1100px;
+  }
+  #header2{
+    color: aliceblue;
+    margin-top: 100px;
+  }
+
+ /* -------------------------for search query------------------------- */
+  .search{
+  position: absolute;
+  height: 600px;
+  width: 900px;
+  color:rgb(245, 201, 201);
+  margin-top: 200px;
+ }
+
+ /* ---------------for input box--------------- */
+ .inputbox{
+  background-color: rgba(221, 165, 165, 0.336);
+  position: sticky;
+  width: 400px;
+  height: 30px;
+  border-radius: 1rem;
+  border-bottom: none;
+  border-top: none;
+  margin-top: 10px;
+  margin-right: 10px;
+  text-decoration: aqua;
+  color: white;
+ }
+ .inputbox:hover{
+  background-color:rgba(104, 29, 29, 0.288);
+ }
+ /* ---------------------show component---------------- */
+ .showdata{
+  position: absolute;
+  margin-top: 150px;
+  height: 1000px;
+  width: 1000px;
+ }
+ .showdata2{
+  background-color:rgba(0, 0, 0, 0.253);
+    display: flex;
+    flex-wrap: wrap;
+   justify-content: space-between;
+}
+/* -----------------for actor component---------------- */
+ .actors{
+position: absolute;
+margin-top: 150px;
+margin-right: 400px;
+height: 1500px;
+  width: 1000px;
+ }
+ 
+  /* -------------media query------------- */
+  @media (max-width:500px){
+   .search{
+    width: 100%;
+   }
+    .container{
+      width: 100%;
+    }
+    #header1{
+      float: right;
+      
+    }
+    .showdata{
+      width: 100%;
+      display: grid;
+      flex-wrap:wrap-reverse;
+
+    }
+    .container{
+      width: 100%;
+    }
+    .actors{
+      width: 100%
+    }
+  }
+  @media (min-width: 500px ) {
+    body{
+        background-position: center center;
+        width: 100%;
+    }
+
+}
