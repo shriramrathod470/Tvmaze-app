@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/Tvmaze-app/static/css/main.ad5cf7d2.css",
-    "main.js": "/Tvmaze-app/static/js/main.71d3e8db.js",
+    "main.css": "/Tvmaze-app/static/css/main.8f8e3b15.css",
+    "main.js": "/Tvmaze-app/static/js/main.90826afa.js",
     "static/js/787.9a4af6ef.chunk.js": "/Tvmaze-app/static/js/787.9a4af6ef.chunk.js",
-    "static/media/bgimage.jpg": "/Tvmaze-app/static/media/bgimage.d4048a76b5e6a82e57be.jpg",
+    "static/media/bgimage2.jpg": "/Tvmaze-app/static/media/bgimage2.0bf27f6c60b7c5ffc41c.jpg",
     "index.html": "/Tvmaze-app/index.html",
-    "main.ad5cf7d2.css.map": "/Tvmaze-app/static/css/main.ad5cf7d2.css.map",
-    "main.71d3e8db.js.map": "/Tvmaze-app/static/js/main.71d3e8db.js.map",
+    "main.8f8e3b15.css.map": "/Tvmaze-app/static/css/main.8f8e3b15.css.map",
+    "main.90826afa.js.map": "/Tvmaze-app/static/js/main.90826afa.js.map",
     "787.9a4af6ef.chunk.js.map": "/Tvmaze-app/static/js/787.9a4af6ef.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.ad5cf7d2.css",
-    "static/js/main.71d3e8db.js"
+    "static/css/main.8f8e3b15.css",
+    "static/js/main.90826afa.js"
   ]
 }
